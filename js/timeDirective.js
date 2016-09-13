@@ -4,7 +4,7 @@ angular.module( 'timeApp' )
             restrict: 'E'
             , templateUrl: './time.html'
             , link: function( scope, elem, attr ) {
-                scope.time = new Date().toString();
+                scope.time = new Date();
             }
         }
     } )

@@ -1,1 +1,6 @@
-<h5> The current time is: {{ time }} </h5>
+<h5>
+  <button type="button" class="btn btn-default" aria-label="Left Align">
+    <span class="glyphicon glyphicon-time" aria-hidden="true"></span>
+  </button>
+  The current time is: {{ time | date: 'medium' }}
+</h5>
